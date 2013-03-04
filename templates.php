@@ -7,6 +7,7 @@
 *ranking: ranking.php
 *sent weibo:block-weibo.php
 *weibo feed:weibo-feed.php
+*comments: comments.php
 +==============================+
 *page home:index.php
 *page login: login.php
