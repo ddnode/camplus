@@ -9,6 +9,7 @@
 		<div class="quicktab-pane active" id="feed-quicktab_1">
 			<?php include("comments.php")?>
 		</div>
+		<div class="quicktab-pane active" id="feed-quicktab_1">我关注的</div>
 		<div class="quicktab-pane" id="feed-quicktab_2">照片</div>
 	</div>
 </div>
