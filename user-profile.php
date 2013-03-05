@@ -1,5 +1,5 @@
 <div class="block block-user-profile">
-	<div class="block-content">
+	<div class="block-content pls">
 		<div class="stbody">
 			<a href="" class="stimg stimgR"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="Avatar" width="50" height="50"></a>
 			<div class="sttext">
@@ -18,7 +18,7 @@
 		</div>
 		<!-- end user profile content -->
 
-		<div class="user-badges-name"><img src="images/b1.png" alt=""></div>
+		<div class="user-badges-name mbm"><img src="images/b1.png" alt=""></div>
 
 		<div class="badgebox">
 			<ul class="unstyled clearfix">

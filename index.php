@@ -17,19 +17,20 @@
 			<div class="container clearfix">
 				<div class="container-wrapper">
 					<div class="container-inner">
-						<div id="main-content" class="clearfix">
+						<div id="main-content" class="clearfix ptl">
 							<div class="content fl">
 								<?php include("block-weibo.php")?>
 								<?php include("weibo-feed.php")?>
 							</div>	 
 							<!-- end main contnet -->
 							<div class="sidebar fl" id="second-sidebar">
-								Right sidebar content 
+								<?php include("daily-quote.php")?>
+								<?php include("interest-people.php")?>
 							</div>
 							<!-- end second sidebar content -->
 						</div>
 						<!-- end main content -->
-						<div id="first-sidebar" class="sidebar clearfix">
+						<div id="first-sidebar" class="sidebar clearfix ptl">
 							<?php include("user-profile.php")?>
 							<?php include("ranking.php")?>
 						</div>					
