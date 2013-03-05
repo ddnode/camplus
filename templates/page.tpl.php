@@ -74,6 +74,59 @@
 ?>
 
 <div class="wrapper">
+  <div id="header" rel="header">
+    <div class="container clearfix">
+      <h1 id="logo" class="fl pts mrs"><a href="<?php print $front_page; ?>" class="ir icon icon-logo"><?php print $site_name; ?></a></h1>
+      <!-- end logo -->
+      <ul id="nav" class="clearfix unstyled fl" rel="navigation">
+        <li><a href="#" title="校园操场" class="active">校园操场</a></li>
+        <li class="haschild">
+          <a href="#" title="校园社区">校园社区</a>
+          <ol class="sub-menu unstyled">
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+          </ol>
+        </li>
+        <li class="haschild">
+          <a href="#" title="校园知识">校园知识</a>
+          <ol class="sub-menu unstyled">
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+          </ol>
+        </li>
+        <li class="haschild">
+          <a href="#" title="校园博客">校园博客</a>
+          <ol class="sub-menu unstyled">
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+            <li><a href="#">sub menu</a></li>
+          </ol>
+        </li>
+      </ul>
+      <!-- end nav menu -->
+
+      <form action="" method="post" class="search-form fl pr">
+        <input type="text" class="form-text" placeholder="找人" />
+        <button class="icon ir icon-search" type="submit">搜索</button>
+      </form>
+      <!-- end search form -->
+
+      <ul class="secondary-menu unstyled clearfix fl">
+        <li><a href="#"><i class="icon ir icon-account">用户</i></a></li>
+        <li><a href="#"><i class="icon ir icon-msg">信息</i></a><i class="msg-num">1</i></li>
+        <li><a href="#"><i class="icon ir icon-logout">退出</i></a></li>
+      </ul>
+      <!-- end secondary menu -->
+    </div>
+  </div>
   <?php print render($page['header']); ?>
   <!-- end header content -->
   <?php print $messages; ?>
@@ -85,23 +138,87 @@
           <div id="main-content" class="clearfix">
             <div class="content fl">
               <?php print render($page['content']); ?>
-            </div>	 
-            <!-- end main contnet -->
-            <div class="sidebar fl" id="second-sidebar">
-              <?php print render($page['sidebar_second']); ?>
             </div>
+            <!-- end main contnet -->
+            <?php if($page['sidebar_second']): ?>
+              <div class="sidebar fl" id="second-sidebar">
+                <?php print render($page['sidebar_second']); ?>
+              </div>
+            <?php endif; ?>
             <!-- end second sidebar content -->
           </div>
           <!-- end main content -->
-          <div id="first-sidebar" class="sidebar clearfix">
-            <?php print render($page['sidebar_first']); ?>
-          </div>					
+          <?php if($page['sidebar_first']): ?>
+            <div id="first-sidebar" class="sidebar clearfix">
+              <?php print render($page['sidebar_first']); ?>
+            </div>
+          <?php endif; ?>
           <!-- end first-sidebar content -->
         </div>
-      </div>				
+      </div>
     </div>
   </div>
   <!-- end page content -->
-  <?php print render($page['footer']); ?>
+
+  <div id="footer">
+    <div class="footer-col">
+      <div class="container clearfix phs">
+        <div class="block-wrapper clearfix">
+          <div class="block fl">
+            <h2 class="block-title">Camplus资讯</h2>
+            <ul class="block-content unstyled">
+              <li><a href="#">徽章说明</a></li>
+              <li><a href="#">积分说明</a></li>
+              <li><a href="#">使用条款</a></li>
+              <li><a href="#">关于Camplus</a></li>
+            </ul>
+          </div>
+          <!-- end camplus info -->
+
+          <div class="block fl">
+            <h2 class="block-title">学习资源</h2>
+            <ul class="block-content unstyled">
+              <li><a href="#">学习软件</a></li>
+              <li><a href="#">学习网页</a></li>
+              <li><a href="#">学习视频</a></li>
+              <li><a href="#">学习工具</a></li>
+            </ul>
+          </div>
+          <!-- end study info -->
+
+          <div class="block fl">
+            <h2 class="block-title">技术支援</h2>
+            <ul class="block-content unstyled">
+              <li><a href="#">Camplus教程</a></li>
+              <li><a href="#">网上支援</a></li>
+            </ul>
+          </div>
+          <!-- end  Technical support -->
+
+          <div class="block fl">
+            <h2 class="block-title">最新消息</h2>
+            <ul class="block-content unstyled">
+              <li><a href="#">学习体验营</a></li>
+              <li><a href="#">电子学习工作坊</a></li>
+              <li><a href="#">更多</a></li>
+            </ul>
+          </div>
+          <!-- end new info -->
+        </div>
+
+
+      </div>
+    </div>
+    <!-- end footer col -->
+
+    <div class="footer-copyright pvs">
+      <div class="container clearfix pr">
+        <p>Copyright© 2013 In Technigence Ltd.All Rights Reserved.</p>
+        <div id="go-to-top"><a href="#" class="icon ir icon-to-top">回到顶部</a></div>
+      </div>
+    </div>
+    <!-- end footer copyright -->
+    <?php print render($page['footer']); ?>
+  </div>
   <!-- end footer content -->
 </div>
