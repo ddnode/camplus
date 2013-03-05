@@ -20,6 +20,7 @@
 						<div id="main-content" class="clearfix">
 							<div class="content fl">
 								<?php include("block-weibo.php")?>
+								<?php include("weibo-feed.php")?>
 							</div>	 
 							<!-- end main contnet -->
 							<div class="sidebar fl" id="second-sidebar">
