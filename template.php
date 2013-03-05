@@ -1,21 +1,20 @@
 <?php
 
-function camplus_form_user_login_alter(&$form, &$form_state, $form_id) {
-  $form['name']['#description'] = NULL;
-  $form['name']['#title'] = NULL;
-  $form['pass']['#description'] = NULL;
-  $form['pass']['#title'] = NULL;
-  //$form['name']['#attributes']['class'] = array('icon');
-  $form['actions']['submit']['#attributes']['class'] = array('btn', 'btn-login');
-  $form['other']['#markup'] = '<div class="form-item">
-      <label class="checkbox">
-        <input type="checkbox" class="form-checkbox">Remember Me
-        <i class="icon icon-question ir"></i>
-      </label>
-      <div class="get-psw">Forgot Password '
-      . l('Click here', 'user/password') . '</div>
-      <div class="register">'
-      . l('Register', 'user/register') . '</div>
-    </div>';
-  $form['other']['#weight'] = 1000;
+/**
+ * Register template for user login form.
+ */
+function camplus_theme($existing, $type, $theme, $path){
+  return array(
+    'user_login' => array(
+      'render element' => 'form',
+      'path' => drupal_get_path('theme', 'camplus') . '/templates',
+      'template' => 'user-login',
+    ),
+  );
+}
+/**
+ * Alter user login form submit button class.
+ */
+function camplus_preprocess_user_login(&$variables) {
+  $variables['form']['actions']['submit']['#attributes']['class'] = array('btn', 'btn-login');
 }
