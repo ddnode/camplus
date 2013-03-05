@@ -1,6 +1,6 @@
 <div class="comments-group">
 	<div class="comment stbody">
-		<div class="stimg avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="50" height="50"></a></div>
+		<div class="stimg stimgL avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="50" height="50"></a></div>
 		<!-- end user face -->
 		<div class="sttext comment-detail">
 			<div class="comment-info"><a href="#" class="comment-name">大漠</a></div>
@@ -26,7 +26,7 @@
 					<textarea name="" id="" cols="30" rows="10" class="form-text"></textarea>
 				</div>
 				<div class="func_area clearfix">
-					<div class="btn-wrap fr"><a href="#" class="btn btn-send">发布</a></div>
+					<div class="btn-wrap fr"><a href="#" class="btn-send">发布</a></div>
 				</div>
 			</div>
 		</div>
@@ -37,7 +37,7 @@
 
 <div class="comments-group">
 	<div class="comment stbody">
-		<div class="stimg avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="50" height="50"></a></div>
+		<div class="stimg stimgL avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="50" height="50"></a></div>
 		<!-- end user face -->
 		<div class="sttext comment-detail">
 			<div class="comment-info"><a href="#" class="comment-name">大漠</a></div>
@@ -59,7 +59,7 @@
 			<!-- end content footer -->
 			<div class="comment-children">
 				<div class="comment stbody comment-children-list">
-					<div class="stimg avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
+					<div class="stimg stimgL avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
 					<!-- end user face -->
 					<div class="sttext comment-detail">
 						<div class="comment-info"><a href="#" class="comment-name">大漠</a></div>
@@ -79,7 +79,7 @@
 				<!-- end comment children list -->
 
 				<div class="comment stbody comment-children-list">
-					<div class="stimg avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
+					<div class="stimg stimgL avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
 					<!-- end user face -->
 					<div class="sttext comment-detail">
 						<div class="comment-info"><a href="#" class="comment-name">大漠</a></div>
@@ -99,7 +99,7 @@
 				<!-- end comment children list -->
 
 				<div class="comment stbody comment-children-list">
-					<div class="stimg avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
+					<div class="stimg stimgL avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
 					<!-- end user face -->
 					<div class="sttext comment-detail">
 						<div class="comment-info"><a href="#" class="comment-name">大漠</a></div>
@@ -125,7 +125,7 @@
 					<textarea name="" id="" cols="30" rows="10" class="form-text"></textarea>
 				</div>
 				<div class="func_area clearfix">
-					<div class="btn-wrap fr"><a href="#" class="btn btn-send">发布</a></div>
+					<div class="btn-wrap fr"><a href="#" class="btn-send">发布</a></div>
 				</div>
 			</div>
 		</div>

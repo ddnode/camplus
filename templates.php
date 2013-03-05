@@ -8,6 +8,8 @@
 *sent weibo:block-weibo.php
 *weibo feed:weibo-feed.php
 *comments: comments.php
+*daily quote: daily-quote.php
+*interest people:interest-people.php
 +==============================+
 *page home:index.php
 *page login: login.php
