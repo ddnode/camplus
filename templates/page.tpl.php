@@ -134,7 +134,7 @@
   <div id="page">
     <div class="container">
       <div class="container-wrapper">
-        <div class="container-inner">
+        <div class="container-inner clearfix">
           <div id="main-content" class="clearfix">
             <div class="content fl">
               <?php print render($page['content']); ?>
