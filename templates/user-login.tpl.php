@@ -11,7 +11,7 @@
   <?php print drupal_render($form['actions']); ?>
 <div class="form-item">
   <label class="checkbox">
-    <input type="checkbox" class="form-checkbox">Remember Me
+    <input type="checkbox" class="form-checkbox" name="persistent_login">Remember Me
     <i class="icon icon-question ir"></i>
   </label>
   <div class="get-psw">Forgot Password <?php print l('Click here', 'user/password'); ?></div>
