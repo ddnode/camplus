@@ -131,10 +131,10 @@
   <!-- end header content -->
   <?php print $messages; ?>
   <?php print render($page['help']); ?>
-  <div id="page">
+  <div id="page" class="clearfix">
     <div class="container">
       <div class="container-wrapper">
-        <div class="container-inner clearfix">
+        <div class="container-inner">
           <div id="main-content" class="clearfix">
             <div class="content fl">
               <?php print render($page['content']); ?>
