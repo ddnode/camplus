@@ -156,6 +156,7 @@ a:focus {
 	float:right;
 	position: relative;
 	right: 170px;
+	padding-bottom: 150px;
 }
 #main-content .content {
 	width: 580px;
@@ -173,20 +174,35 @@ a:focus {
 	right: 170px;
 }
 /*one sidebar ,not have first sidebar*/
-.one-sidebar .container-inner {
+.sidebar-second .container-inner {
 	left: 100px;
 }
-.one-sidebar #main-content {
+.sidebar-second #main-content {
 	width: 860px;
 	right: 100px;
 }
-.one-sidebar #first-sidebar {
+.sidebar-second #first-sidebar {
 	width: 100px;
 	right: 100px;
 }
-.one-sidebar #main-content .content {
+.sidebar-second #main-content .content {
 	width: 640px;
 	margin-left: 30px;
+}
+.one-sidebar .container-inner {
+	left: 0;
+}
+.one-sidebar #main-content {
+	width: 960px;
+	right: 0;
+}
+.one-sidebar #first-sidebar {
+	width: 0;
+	right: 0;
+}
+.one-sidebar #main-content .content {
+	width: 750px;
+	margin-left: 20px;
 }
 /*---------------------------------------------------*\
 * Header

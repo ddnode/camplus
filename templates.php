@@ -15,10 +15,17 @@
 * hot blog: block-hot-blog.php
 *archive blog: block-blog-archive.php
 *add new blog: add-new-blog.php
+*tabs: tab.php
+*node: node.php
+*node blog header:node-blog-header.php
+*node blog content: node-blog-body.php
+*rate average:rate-average.php
+*node comment:node-comments.php
 +==============================+
 *page home:index.php
 *page login: login.php
 *page blog: page-blog.php
+*node blog: node-blog.php
 */
 ?>
 

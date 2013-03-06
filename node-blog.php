@@ -1,6 +1,6 @@
 
 <?php include("html.php")?>
-<body class="page-blog  sidebar-second">
+<body class="page-blog one-sidebar sidebar-second node node-blog">
 	<div class="wrapper">
 		<?php include("header.php")?>
 		<!-- end header content -->
@@ -10,8 +10,8 @@
 					<div class="container-inner">
 						<div id="main-content" class="clearfix ptl">
 							<div class="content fl">
-								<?php include("blog-header.php")?>
-								<?php include("block-blog.php")?>
+								<?php include("tabs.php")?>
+								<?php include("node.php")?>
 							</div>	 
 							<!-- end main contnet -->
 							<div class="sidebar fl" id="second-sidebar">

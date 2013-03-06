@@ -22,9 +22,10 @@
 		<div class="blog-list-footer clearfix">
 			<ul class="clearfix unstyled blog-handle fr">
 				<li><a href="#"><i class="icon icon-like"></i>赞好(<span class="like-num">20</span>)</a></li>		
-				<li><a href="#">分享</a></li>
-				<li><a href="#">回应</a></li>
+				<li><a href="#">收藏</a></li>
 				<li><a href="#">举报</a></li>
+				<li><a href="#">小明的博客</a></li>
+				<li><a href="#">回应</a></li>				
 			</ul>
 			<div class="blog-from fl">
 				<a href="#">今天 22:27</a>
@@ -56,9 +57,10 @@
 		<div class="blog-list-footer clearfix">
 			<ul class="clearfix unstyled blog-handle fr">
 				<li><a href="#"><i class="icon icon-like"></i>赞好(<span class="like-num">20</span>)</a></li>		
-				<li><a href="#">分享</a></li>
-				<li><a href="#">回应</a></li>
+				<li><a href="#">收藏</a></li>
 				<li><a href="#">举报</a></li>
+				<li><a href="#">小明的博客</a></li>
+				<li><a href="#">回应</a></li>				
 			</ul>
 			<div class="blog-from fl">
 				<a href="#">今天 22:27</a>
@@ -90,9 +92,10 @@
 		<div class="blog-list-footer clearfix">
 			<ul class="clearfix unstyled blog-handle fr">
 				<li><a href="#"><i class="icon icon-like"></i>赞好(<span class="like-num">20</span>)</a></li>		
-				<li><a href="#">分享</a></li>
-				<li><a href="#">回应</a></li>
+				<li><a href="#">收藏</a></li>
 				<li><a href="#">举报</a></li>
+				<li><a href="#">小明的博客</a></li>
+				<li><a href="#">回应</a></li>				
 			</ul>
 			<div class="blog-from fl">
 				<a href="#">今天 22:27</a>
@@ -124,9 +127,10 @@
 		<div class="blog-list-footer clearfix">
 			<ul class="clearfix unstyled blog-handle fr">
 				<li><a href="#"><i class="icon icon-like"></i>赞好(<span class="like-num">20</span>)</a></li>		
-				<li><a href="#">分享</a></li>
-				<li><a href="#">回应</a></li>
+				<li><a href="#">收藏</a></li>
 				<li><a href="#">举报</a></li>
+				<li><a href="#">小明的博客</a></li>
+				<li><a href="#">回应</a></li>				
 			</ul>
 			<div class="blog-from fl">
 				<a href="#">今天 22:27</a>
