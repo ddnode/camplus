@@ -107,6 +107,12 @@ a:focus {
 	height: 15px;
 	background-position: -360px -36px;
 }
+/*icon add*/
+.icon-add {
+	width: 27px;
+	height: 25px;
+	background-position: -250px -90px;
+}
 /*---------------------------------------------------*\
 * btn 
 \*---------------------------------------------------*/
@@ -128,7 +134,60 @@ a:focus {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.container-wrapper {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: #e2e2e2;
+	border-radius: 5px;
+	min-height: 465px;
+}
+.container-inner {
+	float: left;
+	width: 100%;
+	background: #f1f1f1;
+	position: relative;
+	left: 170px;
+	min-height: 465px;
+}
+#main-content {
+	width: 790px;
+	float:right;
+	position: relative;
+	right: 170px;
+}
+#main-content .content {
+	width: 580px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#second-sidebar {
+	width: 160px;
+	padding-right: 10px;
+}
+#first-sidebar {
+	width: 170px;
+	float: right;
+	position: relative;
+	right: 170px;
+}
+/*one sidebar ,not have first sidebar*/
+.one-sidebar .container-inner {
+	left: 100px;
+}
+.one-sidebar #main-content {
+	width: 860px;
+	right: 100px;
+}
+.one-sidebar #first-sidebar {
+	width: 100px;
+	right: 100px;
+}
+.one-sidebar #main-content .content {
+	width: 640px;
+	margin-left: 30px;
+}
 /*---------------------------------------------------*\
 * Header
 \*----------------------------------------------------*/
@@ -136,6 +195,8 @@ a:focus {
 	background: url(../images/bg-header.png) repeat-x;
 	height: 57px;
 	margin-bottom: 35px;
+	position: relative;
+	z-index: 3;
 }
 #header .container {
 	height: 50px;
@@ -308,6 +369,10 @@ a:focus {
 /*---------------------------------------------------*\
 * page 
 \*----------------------------------------------------*/
+#page {
+	position: relative;
+	z-index: 1;
+}
 #page .container {
 	border-radius: 5px;
 	min-height: 465px;
@@ -315,44 +380,7 @@ a:focus {
 	box-shadow:inset 0 0  4px  rgba(0,0,0,0.2);
 	
 }
-#page .container-wrapper {
-	float: left;
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-	background: #e2e2e2;
-	border-radius: 5px;
-	min-height: 465px;
-}
-#page .container-inner {
-	float: left;
-	width: 100%;
-	background: #f1f1f1;
-	position: relative;
-	left: 170px;
-	min-height: 465px;
-}
-#main-content {
-	width: 790px;
-	float:right;
-	position: relative;
-	right: 170px;
-}
-#main-content .content {
-	width: 580px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-#second-sidebar {
-	width: 160px;
-	padding-right: 10px;
-}
-#first-sidebar {
-	width: 170px;
-	float: right;
-	position: relative;
-	right: 170px;
-}
+
 /*--------------------------------------------------*\
 *page user login
 \*--------------------------------------------------*/
@@ -535,6 +563,7 @@ a:focus {
 	color: #d34641;
 }
 /*interset block*/
+.block-hot-blog .stbody,
 .block-interest .stbody {
 	margin-top: 15px;
 }
@@ -620,10 +649,12 @@ a:focus {
 .comments-group .stbody {
 	margin-bottom: 0;
 }
+.blog-handle li,
 .comment-handle li {
 	display: inline;
 	margin-left: 15px;
 }
+.blog-handle .icon-like,
 .comment-handle .icon-like {
 	display: inline-block;
 	vertical-align: -2px;
@@ -656,8 +687,90 @@ a:focus {
 .comments-group .comment-children-list {
 	margin-bottom: 10px;
 }
+.blog-from a,
 .comment-from a {
 	margin-right: 10px;
+}
+/*---------------------------------------*\
+* page blog 
+\*----------------------------------------*/
+.page-blog {
+	background:#695252;
+}
+.blog-header .sort {
+	right: 0;
+	bottom: 1px;
+}
+.blog-header .sort a {
+	margin-left: 5px;
+}
+.blog-header .sort .active,
+.blog-header .sort a:hover {
+	background: #308fc7;
+	color: #fff;
+}
+/*blog list*/
+.block-blog {
+	padding-top: 50px;
+}
+.blog-list {
+	border-bottom: 1px solid #c2c0c0;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.blog-list-header {
+	margin-bottom: 10px;
+}
+.blog-list .blog-handle {
+	margin-bottom: 0;
+}
+/*submmited*/
+.blog-list .submmitted {
+	width: 80px;
+	background: #f1f1f2;
+	position: absolute;
+	top: 0;
+	left: -105px;
+	text-align: center;
+	border-radius: 5px 0 0 5px;
+	box-shadow: inset -2px 0 6px -1px rgba(0,0,0,0.3);
+}
+.blog-list .ym {
+	background: #308fc7;
+	border-radius: 5px 0 0 0;
+	color: #fff;
+	box-shadow: inset -2px 0 6px -1px rgba(0,0,0,0.3);
+}
+.blog-list .day span {
+	font-size: 30px;
+}
+/*add new blog*/
+.block-archive-blog,
+.block-add-new-blog {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #c2c0c0;
+}
+.btn-add-new-blog {
+	display: block;
+	border-radius: 0;
+	padding-left: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.icon-add {
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
+/*archive blog*/
+.block-archive-blog .block-content {
+	margin-bottom: 0;
+}
+.block-archive-blog .block-content li {
+	margin-top: 10px;
 }
 /*---------------------------------------*\
 *ie8 hack 

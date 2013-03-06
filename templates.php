@@ -10,9 +10,15 @@
 *comments: comments.php
 *daily quote: daily-quote.php
 *interest people:interest-people.php
+*blog header: blog-header.php
+*blog list: block-blog.php
+* hot blog: block-hot-blog.php
+*archive blog: block-blog-archive.php
+*add new blog: add-new-blog.php
 +==============================+
 *page home:index.php
 *page login: login.php
+*page blog: page-blog.php
 */
 ?>
 

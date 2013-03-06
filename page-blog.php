@@ -8,13 +8,16 @@
 			<div class="container clearfix">
 				<div class="container-wrapper">
 					<div class="container-inner">
-						<div id="main-content" class="clearfix">
+						<div id="main-content" class="clearfix ptl">
 							<div class="content fl">
-								Main contnet 
+								<?php include("blog-header.php")?>
+								<?php include("block-blog.php")?>
 							</div>	 
 							<!-- end main contnet -->
 							<div class="sidebar fl" id="second-sidebar">
-								Right sidebar content 
+								<?php include("add-new-blog.php")?>
+								<?php include("block-blog-archive.php")?>
+								<?php include("block-hot-blog.php")?>
 							</div>
 							<!-- end second sidebar content -->
 						</div>
