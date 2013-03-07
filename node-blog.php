@@ -1,6 +1,6 @@
 
 <?php include("html.php")?>
-<body class="page-blog one-sidebar sidebar-second node node-blog">
+<body class="page-blog one-sidebar sidebar-second node-blog">
 	<div class="wrapper">
 		<?php include("header.php")?>
 		<!-- end header content -->
