@@ -1,4 +1,4 @@
-<div class="node-comment">
+<div class="node-comment clearfix">
 	<div class="comments-group">
 		<div class="comment stbody">
 			<div class="stimg stimgL avatar"><a href="#"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt="avatar" width="32" height="32"></a></div>
@@ -135,10 +135,12 @@
 	</div>
 	<!-- end comment group -->
 
-	<div class="answer-box">
+	<div class="answer-box ptm">
 		<h3 class="title">我来回答</h3>
 		<div class="textarea-wrapper">此处放文本编辑器</div>
-		<button class="btn btn-sent" type="submit">发布</button>
+		<div class="form-actions">
+			<button class="btn  btn-primary" type="submit">发布</button>
+		</div>
 	</div>
 
 

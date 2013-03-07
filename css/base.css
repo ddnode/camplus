@@ -922,3 +922,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
     opacity: 0.65;
     filter: alpha(opacity = 65);
 }
+/* btn-primary*/
+.btn-primary{
+  background: #308fc7;
+  color: #fff;
+  box-shadow: none;
+  font-size: 14px;
+  text-shadow: none;
+  border:none;
+  padding: 8px 15px;
+}
+.btn-primary:hover,
+.btn-primary:active{
+  background: #4898c7;
+}

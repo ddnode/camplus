@@ -1,4 +1,4 @@
-<div class="node-header node-blog-header clearfix">
+<div class="node-header node-blog-header clearfix mbxl">
 	<div class="author-info stbody fl">
 		<a href="#" class="stimg stimgL"><img src="http://www.w3cplus.com/sites/default/files/styles/user_picture/public/pictures/picture-1-1347153884.jpg" alt=""></a>
 		<div class="sttext">
