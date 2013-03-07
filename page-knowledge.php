@@ -1,6 +1,5 @@
-
 <?php include("html.php") ?>
-<body class="page-blog  sidebar-second">
+<body class="page-knowledge sidebar-first">
 	<div class="wrapper">
 		<?php include("header.php") ?>
 		<!-- end header content -->
@@ -10,20 +9,14 @@
 					<div class="container-inner">
 						<div id="main-content" class="clearfix ptl">
 							<div class="content fl">
-								<?php include("blog-header.php") ?>
-								<?php include("block-blog.php") ?>
+								<?php include("node-question-form.php") ?>
 							</div>	 
-							<!-- end main contnet -->
-							<div class="sidebar fl" id="second-sidebar">
-								<?php include("add-new-blog.php") ?>
-								<?php include("block-blog-archive.php") ?>
-								<?php include("block-hot-blog.php") ?>
-							</div>
-							<!-- end second sidebar content -->
+							<!-- end main contnet -->							
 						</div>
 						<!-- end main content -->
-						<div id="first-sidebar" class="sidebar clearfix">
-							<!-- left side bar -->
+						<div id="first-sidebar" class="sidebar clearfix ptl">
+							<?php include("knowledge-search.php") ?>
+							<?php include("hot-question.php") ?>
 						</div>					
 						<!-- end first-sidebar content -->
 					</div>

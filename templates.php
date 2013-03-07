@@ -21,11 +21,15 @@
 *node blog content: node-blog-body.php
 *rate average:rate-average.php
 *node comment:node-comments.php
+*knowledge search:knowledge-search.php
+*hot question:hot-question.php
+*node question form:node-question-form.php
 +==============================+
 *page home:index.php
 *page login: login.php
 *page blog: page-blog.php
 *node blog: node-blog.php
+*page knowledge:page-knowledge.php
 */
 ?>
 

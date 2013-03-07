@@ -916,6 +916,15 @@ a:focus {
 	text-align: right;
 }
 /*---------------------------------------*\
+* page knowledge
+\*----------------------------------------*/
+.page-knowledge {
+	background: #5ea24a;
+}
+.page-knowledge #main-content .content{
+	width: 720px;
+}
+/*---------------------------------------*\
 *ie8 hack 
 \*---------------------------------------*/
 .ie8 #nav > li > a:hover,
