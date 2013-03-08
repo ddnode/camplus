@@ -44,4 +44,4 @@
  * @ingroup themeable
  */
 ?>
-  <?php print $content ?>
+<?php print $content ?>
