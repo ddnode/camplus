@@ -81,7 +81,7 @@
       <?php print render($page['header']); ?>
     </div>
   </div>
-  
+
   <!-- end header content -->
   <?php print $messages; ?>
   <?php print render($page['help']); ?>
