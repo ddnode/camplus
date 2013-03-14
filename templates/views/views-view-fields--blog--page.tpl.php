@@ -26,8 +26,8 @@
 ?>
 <div class="blog-list">
   <div class="submmitted">
-    <div class="ym"><?php print format_date($fields['created']->row, 'custom', 'Y年m月'); ?></div>
-    <div class="day"><span><?php print format_date($fields['created']->row, 'custom', 'd'); ?></span>日</div>
+    <div class="ym"><?php print format_date($fields['created']->raw, 'custom', 'Y年m月'); ?></div>
+    <div class="day"><span><?php print format_date($fields['created']->raw, 'custom', 'd'); ?></span>日</div>
   </div>
   <div class="stbody blog-list-header">
     <div class="stimg stimgL avatar">
