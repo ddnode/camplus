@@ -36,7 +36,7 @@
     <!-- end user avatar -->
     <div class="sttext">
       <div class="title"><?php print $fields['name']->content; ?></div>
-      <h3 class="blog-title"><?php print $fields['title']->content; ?></h3>
+      <h3 class="blog-title"><?php print $fields['title']->raw; ?></h3>
     </div>
   </div>
   <!-- end blog  list header -->
@@ -46,11 +46,11 @@
   <!-- end blog list body -->
   <div class="blog-list-footer clearfix">
     <ul class="clearfix unstyled blog-handle fr">
-      <li><a href="#"><i class="icon icon-like"></i>赞好(<span class="like-num">20</span>)</a></li>
-      <li><a href="#">收藏</a></li>
-      <li><a href="#">举报</a></li>
-      <li><a href="#">小明的博客</a></li>
-      <li><a href="#">回应</a></li>
+      <li><i class="icon icon-like"></i><?php print $fields['ops_2']->content; ?><span class="like-num"><?php print $fields['count']->content; ?></span></li>
+      <li><?php print $fields['ops_1']->content; ?></li>
+      <li><?php print $fields['ops']->content; ?></li>
+      <li><?php print $fields['uid']->content; ?></li>
+      <li><?php print $fields['comments_link']->content; ?></li>
     </ul>
     <div class="blog-from fl">
       <a href="#">今天 22:27</a>
