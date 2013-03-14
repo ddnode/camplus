@@ -40,7 +40,7 @@ function camplus_menu_link__main_menu($variables) {
 }
 
 function camplus_menu_tree__user_menu($variables) {
-  return 'ul class="secondary-menu unstyled clearfix fl">' . $variables['tree'] . '</ul>';
+  return '<ul class="secondary-menu unstyled clearfix fl">' . $variables['tree'] . '</ul>';
 }
 function camplus_menu_link__user_menu($variables) {
   $element = $variables['element'];
@@ -52,4 +52,8 @@ function camplus_menu_link__user_menu($variables) {
 
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
+
+function camplus_form_alter(&$form, &$form_state, $form_id) {
+//dsm($form_id);
 }
