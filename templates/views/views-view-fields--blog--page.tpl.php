@@ -36,7 +36,7 @@
     <!-- end user avatar -->
     <div class="sttext">
       <div class="title"><?php print $fields['name']->content; ?></div>
-      <h3 class="blog-title"><?php print $fields['title']->raw; ?></h3>
+      <h3 class="blog-title"><?php print $fields['title']->content; ?></h3>
     </div>
   </div>
   <!-- end blog  list header -->
