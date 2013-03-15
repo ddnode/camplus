@@ -46,7 +46,7 @@
   <!-- end blog list body -->
   <div class="blog-list-footer clearfix">
     <ul class="clearfix unstyled blog-handle fr">
-      <li><i class="icon icon-like"></i><?php print $fields['ops_2']->content; ?><span class="like-num"><?php print $fields['count']->content; ?></span></li>
+      <li><i class="icon icon-like"></i><?php print $fields['ops_2']->content; ?><?php if(isset($fields['count'])): ?><span class="like-num"><?php print $fields['count']->content; ?></span><?php endif; ?></li>
       <li><?php print $fields['ops_1']->content; ?></li>
       <li><?php print $fields['ops']->content; ?></li>
       <li><?php print $fields['uid']->content; ?></li>
