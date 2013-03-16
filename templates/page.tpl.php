@@ -90,6 +90,9 @@
       <div class="container-wrapper">
         <div class="container-inner">
           <div id="main-content" class="clearfix">
+            <?php if ($tabs): ?>
+              <div class="tabs"><?php print render($tabs); ?></div>
+            <?php endif; ?>
             <div class="content fl">
               <?php print render($page['content']); ?>
             </div>

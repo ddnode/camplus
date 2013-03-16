@@ -82,29 +82,40 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <?php print $user_picture; ?>
-
-  <?php print render($title_prefix); ?>
-  <?php if (!$page): ?>
-    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-  <?php endif; ?>
-  <?php print render($title_suffix); ?>
-
-  <?php if ($display_submitted): ?>
-    <div class="submitted">
-      <?php print $submitted; ?>
+  <div class="node-header node-blog-header clearfix mbxl">
+    <div class="author-info stbody fl">
+      <div class="stimg stimgL"><?php print $user_picture; ?></div>
+      <div class="sttext">
+        <h3 class="title"><?php print $name; ?></h3>
+        <div class="btn-wrap"><a href="#"><i class="addicon">+</i>关注</a></div>
+      </div>
     </div>
-  <?php endif; ?>
+    <!-- end author info -->
 
-  <div class="content"<?php print $content_attributes; ?>>
-    <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['comments']);
-      hide($content['links']);
-      print render($content);
-    ?>
+    <div class="fr meta">
+      <div class="submitted"><?php print $date; ?></div>
+      <div class="metalink btn-wrap">
+        <a href="#">小明的博客</a><a href="#">收藏</a>
+      </div>
+    </div>
   </div>
+   <div class="node-body node-blog-body">
+      <?php print render($title_prefix); ?>
+      <?php if (!$page): ?>
+        <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
+      <?php endif; ?>
+      <h2 class="node-title"><?php print $title; ?></h2>
+      <?php print render($title_suffix); ?>
 
+    <div class="content"<?php print $content_attributes; ?>>
+      <?php
+        // We hide the comments and links now so that we can render them later.
+        hide($content['comments']);
+        hide($content['links']);
+        print render($content);
+      ?>
+    </div>
+  </div>
   <?php print render($content['links']); ?>
 
   <?php print render($content['comments']); ?>
