@@ -87,7 +87,7 @@
       <div class="stimg stimgL"><?php print $user_picture; ?></div>
       <div class="sttext">
         <h3 class="title"><?php print $name; ?></h3>
-        <div class="btn-wrap"><a href="#"><i class="addicon">+</i>关注</a></div>
+        <div class="btn-wrap"><i class="addicon">+</i><?php print flag_create_link('follow', $node->uid); ?></div>
       </div>
     </div>
     <!-- end author info -->
@@ -95,7 +95,7 @@
     <div class="fr meta">
       <div class="submitted"><?php print $date; ?></div>
       <div class="metalink btn-wrap">
-        <a href="#">小明的博客</a><a href="#">收藏</a>
+        <?php print l($node->name . t('\'s blog'), 'blog' . $node->uid); ?><?php print flag_create_link('bookmarks', $node->nid); ?>
       </div>
     </div>
   </div>
